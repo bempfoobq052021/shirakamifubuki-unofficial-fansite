@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from "$app/state";
-  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem } from "flowbite-svelte";
+  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
   import favicon from "$lib/fbkwebsite/assets/smolCorn.webp";
 
   let activeUrl = $derived(page.url.pathname);
