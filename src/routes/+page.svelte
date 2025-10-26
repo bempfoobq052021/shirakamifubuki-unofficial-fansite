@@ -1,6 +1,4 @@
 <script lang="ts">
-    import FubuHeader from '$lib/fbkwebsite/utils/FubuHeader.svelte';
-    import FubuFooter from '$lib/fbkwebsite/utils/FubuFooter.svelte';
     import HP1st_WelcomeSection from '$lib/fbkwebsite/utils/HP1st_WelcomeSection.svelte'
     import HP2ndLetter from '$lib/fbkwebsite/utils/HP2nd_Letter.svelte';
     import HP3rdActivities from '$lib/fbkwebsite/utils/HP3rd_Activities.svelte';
@@ -11,9 +9,9 @@
 <div class="content-container overflow-x-hidden">
     <HP1st_WelcomeSection />
     <HP2ndLetter />
+    <HP3rdActivities hidden={false}/>
     <TranslatedDisplay />
-    <HP3rdActivities hidden={true}/>
-    <div class="bg-white p-10 hidden">
+    <div class="bg-white p-10">
         <div class="relative w-[100vh-10rem] h-[90vh] bg-fbksite-osmanthus top-88px border-1">
             <div class="h-[10vh] border-2 justify-center items-center">
                 <p class="text-10 text-fbksite-darkblue">The Kings Times</p>

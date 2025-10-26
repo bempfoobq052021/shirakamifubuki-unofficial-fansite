@@ -1,6 +1,6 @@
 <div class="bg-image-paper bg-cover p-10">
     <div class="h-[92px] w-full">
-        <p class="text-[4rem] text-center text-fbksite-darkblue">Our Translation of FBKINGDOM Story</p>
+        <p class="text-[2rem] md:text-[4rem] text-center text-fbksite-darkblue">Our Translation of FBKINGDOM Story</p>
     </div>
     <div class="flex fbkingdom-novel-translation mt-10 items-center justify-center w-full h-full">
         <div class="md:w-[60rem] w-[90wh] h-[90vh] overflow-y-scroll overflow-x-hidden text-black wrap-anywhere">
