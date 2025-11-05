@@ -7,16 +7,33 @@
 </script>
 
 <div class="content-container overflow-x-hidden">
-<!--     <div>
+    <div class="envelope-wrapper">
+        <div class="wrapper">
+            <div class="lid one"></div>
+            <div class="lid two"></div>
+            <div class="envelope"></div>
+            <div class="letter letter-right">
+                <p>Right</p>
+            </div>
+            <div class="letter letter-left">
+                <p>Welcome FBKINGDOM!</p>
+            </div>
+        </div>
+    </div>
+    <div>
         <div class="front w-[100vh-10rem] h-[100vh] bg-fbksite-osmanthus animation-go-up">
         </div>
         <div class="back w-[100vh-10rem] h-[100vh] bg-white animation-drop-and-open-letter">
         </div>
-    </div> -->
-    <<HP1st_WelcomeSection />
+<!--    <div class="back w-[100vh-10rem] h-[100vh] bg-cyan animation-drop-and-open-letter">
+        </div>
+        <div class="back w-[100vh-10rem] h-[100vh] bg-blue animation-drop-and-open-letter">
+        </div> -->
+    </div>
+<!--     <HP1st_WelcomeSection />
     <HP2ndLetter />
     <HP3rdActivities hidden={false}/>
-    <TranslatedDisplay />
+    <TranslatedDisplay /> -->
     <!-- <div class="bg-white p-10">
         <div class="relative w-[100vh-10rem] h-[90vh] bg-fbksite-osmanthus top-88px border-1">
             <div class="h-[10vh] border-2 justify-center items-center">

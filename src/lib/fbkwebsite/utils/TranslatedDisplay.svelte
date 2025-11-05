@@ -2,6 +2,10 @@
 </script>
 
 <div class="bg-image-paper bg-cover p-10">
+    <div class="w-<80%>">
+        <div class="w-<50%> flex justify-start"><a href="translation/">Previous Page</a></div>
+        <div class="w-<50%> flex justify-end"><a href="translation/EP.2">EP.2</a></div>
+    </div>
     <div class="w-full text-fbksite-darkblue ">
         <p class="text-[2rem] md:text-[4rem] text-center fbkingdom-novel-translation font-weight-400">“FBKINGDOM STORY” Translation - EP1</p>
         <br/>
