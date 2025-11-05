@@ -30,9 +30,9 @@
         <div class="back w-[100vh-10rem] h-[100vh] bg-blue animation-drop-and-open-letter">
         </div> 
     </div>-->
-    <HP1st_WelcomeSection />
+<!--     <HP1st_WelcomeSection />
     <HP2ndLetter />
-    <HP3rdActivities hidden={false}/>
+    <HP3rdActivities hidden={false}/> -->
     <TranslatedDisplay /> 
     <!-- <div class="bg-white p-10">
         <div class="relative w-[100vh-10rem] h-[90vh] bg-fbksite-osmanthus top-88px border-1">
