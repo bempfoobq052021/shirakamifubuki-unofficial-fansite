@@ -7,11 +7,17 @@
 </script>
 
 <div class="content-container overflow-x-hidden">
-    <HP1st_WelcomeSection />
+<!--     <div>
+        <div class="front w-[100vh-10rem] h-[100vh] bg-fbksite-osmanthus animation-go-up">
+        </div>
+        <div class="back w-[100vh-10rem] h-[100vh] bg-white animation-drop-and-open-letter">
+        </div>
+    </div> -->
+    <!-- <HP1st_WelcomeSection />
     <HP2ndLetter />
-    <HP3rdActivities hidden={false}/>
+    <HP3rdActivities hidden={false}/> -->
     <TranslatedDisplay />
-    <div class="bg-white p-10">
+    <!-- <div class="bg-white p-10">
         <div class="relative w-[100vh-10rem] h-[90vh] bg-fbksite-osmanthus top-88px border-1">
             <div class="h-[10vh] border-2 justify-center items-center">
                 <p class="text-10 text-fbksite-darkblue">The Kings Times</p>
@@ -40,5 +46,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>

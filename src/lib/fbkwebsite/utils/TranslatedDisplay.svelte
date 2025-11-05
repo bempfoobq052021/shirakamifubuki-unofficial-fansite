@@ -1,9 +1,17 @@
+<script>
+</script>
+
 <div class="bg-image-paper bg-cover p-10">
-    <div class="h-[92px] w-full">
-        <p class="text-[4rem] text-center text-fbksite-darkblue">Our Translation of FBKINGDOM Story</p>
+    <div class="w-full text-fbksite-darkblue ">
+        <p class="text-[2rem] md:text-[4rem] text-center fbkingdom-novel-translation font-weight-400">“FBKINGDOM STORY” Translation - EP1</p>
+        <br/>
+        <p class="text-base md:text-xl text-center text-fbksite-darkblue">Original Ideas: Shirakami Fubuki</p>
+        <p class="text-base md:text-xl text-center text-fbksite-darkblue">Writer : Kayano Niko</p>
+        <p class="text-base md:text-xl text-center text-fbksite-darkblue">Translators: Caligula, Ruanronan, Nyan, Silver, Xyrix</p>
+        <p class="text-base md:text-xl text-center text-fbksite-darkblue">Proofreaders: Calran, Ruanronan, Xyrik</p>
     </div>
     <div class="flex fbkingdom-novel-translation mt-10 items-center justify-center w-full h-full">
-        <div class="md:w-[60rem] w-[90wh] h-[90vh] overflow-y-scroll overflow-x-hidden text-black wrap-anywhere">
+        <div class="md:w-[60rem] w-[90wh] p-4 overflow-y-visible overflow-x-hidden text-black wrap-anywhere">
         “…I want to meet her…”  <br />
         A soft voice rose up from within and surprised me. I want to meet her.  <br /> 
         Hearing those words the librarian quickly snapped her fingers.  <br />
