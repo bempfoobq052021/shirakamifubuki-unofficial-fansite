@@ -6,7 +6,7 @@
 
 </script>
 
-<div class="content-container overflow-x-hidden">
+<div class="overflow-x-hidden">
 <!--    <div class="envelope-wrapper">
         <div class="wrapper">
             <div class="lid one"></div>
@@ -30,17 +30,18 @@
         <div class="back w-[100vh-10rem] h-[100vh] bg-blue animation-drop-and-open-letter">
         </div> 
     </div>-->
-<!--     <HP1st_WelcomeSection />
+    <HP1st_WelcomeSection />
     <HP2ndLetter />
-    <HP3rdActivities hidden={false}/> -->
-    <TranslatedDisplay /> 
-    <!-- <div class="bg-white p-10">
-        <div class="relative w-[100vh-10rem] h-[90vh] bg-fbksite-osmanthus top-88px border-1">
-            <div class="h-[10vh] border-2 justify-center items-center">
-                <p class="text-10 text-fbksite-darkblue">The Kings Times</p>
+    <HP3rdActivities />
+    <TranslatedDisplay />
+     <div class="bg-white p-10">
+        <div class="relative w-[100vh-10rem] h-[90vh] bg-fbksite-osmanthus 
+        top-88px border-1">
+            <div class="h-[10vh] w-full border-2">
+                <p class="text-10 text-fbksite-darkblue text-center">The Kings Times</p>
             </div>
-            <div class="h-[10vh] border-2 justify-center items-center">
-                <p class="text-10 text-fbksite-darkblue">Today's stream starts at ...</p>
+            <div class="h-[10vh] w-full border-2">
+                <p class="text-10 text-fbksite-darkblue text-center">Today's stream starts at ...</p>
             </div>
             <div class="grid grid-cols-2">
                 <div class="flex border-2 h-[70vh] items-center justify-center">
@@ -63,5 +64,5 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 </div>

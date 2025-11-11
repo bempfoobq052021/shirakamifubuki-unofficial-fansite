@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Indie+Flower&family=Lavishly+Yours&family=Lobster&family=M+PLUS+Rounded+1c&family=Noto+Sans+JP:wght@100..900&display=swap');
 @import "tailwindcss";
+@import "flowbite/src/themes/default";
 
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 @plugin 'flowbite/plugin';
+
+@source "../node_modules/flowbite";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -262,6 +265,13 @@ html {
     opacity: 0.8;
 }
 
+.bg-image-small-corn {
+    background-image: url("/smolCorn.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
 .bg-image-fbkingdom-vista {
     background-image: url("lib/fbkwebsite/assets/stage_bg_ef fbkingdom.hololivepro.webp");
     background-repeat: no-repeat;
@@ -302,12 +312,25 @@ html {
 
 /* Taken from https://codepen.io/Coding-Star/pen/WNpbvwB */
 .envelope-wrapper{
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
+  height: 720px;
+  width: 1200px;
+}
+
+.letter-left {
+  left: 355.84px;
+  top: 374.27px;
+  width: 296px;
+  height: 200px;
+}
+
+.letter-right {
+  left: 481.32px;
+  top: 426.06px;
+  width: 296px;
+  height: 200px;
+}
+
+.wooden-table {
   background-color: #ffffff;
 }
 

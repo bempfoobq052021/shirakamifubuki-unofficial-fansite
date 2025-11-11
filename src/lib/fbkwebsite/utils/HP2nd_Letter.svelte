@@ -3,20 +3,24 @@
 </script>
 
 <div class="bg-white p-10">
-    <div class="md:w-[100vh-10rem] md:h-[90vh] w-[100vh-5rem] grid xl:grid-cols-2 xl:grid-rows-10 
-    grid-cols-2 grid-rows-2 
-    gap-x-12 gap-y-4 bg-fbksite-lightosmanthus font-serif">
+    <div class="md:w-[100vw-10rem] md:h-[90vh] w-[100vh-5rem] grid 
+    xl:grid-cols-12 xl:grid-rows-20 
+    grid-cols-4 auto-rows-auto
+    gap-x-5 gap-y-5 bg-fbksite-lightosmanthus font-serif
+    p-5">
         <div class="text-fbksite-darkgreyblue flex xl:items-start items-start 
-        xl:col-start-1 xl:row-start-2 col-start-1 row-start-1">
-            <p class="xl:text-[4rem] md:text-[2.5rem] text-[1rem] xl:ml-20 ml-5 
+        xl:col-start-1 xl:row-start-3 xl:col-end-8 xl:row-end-5
+        col-start-1 col-end-4 row-start-2 row-end-3">
+            <p class="xl:text-[4rem] md:text-[2.5rem] text-[2rem] xl:ml-20 ml-5 
             lavishly-yours-regular tracking-normal">
                 Dear Friends around the globe,
             </p>
         </div>
-        <div class="text-fbksite-darkgreyblue flex xl:items-end items-start 
-        xl:col-start-1 xl:row-start-8 col-start-1 row-start-2">
-            <p class="2xl:text-[2rem] xl:text-[1.5rem] xl:ml-20 md:text-[1.5rem] text-[0.8rem] 
-            ml-5 indie-flower-regular">
+        <div class="text-fbksite-darkgreyblue flex items-start 
+        xl:col-start-1 xl:col-end-7 xl:row-start-7 xl:row-end-20
+        col-start-1 col-end-3 row-start-3 row-end-8">
+            <p class="2xl:text-[2rem] xl:text-[1.5rem] xl:ml-20 md:text-[1.2rem] 
+            text-[0.8rem] ml-5 indie-flower-regular">
                 I'm writing this from a desk, in a face, 
                 in a city of beautiful gardens. The sun
                 is shining brightly and I'm enjoying 
@@ -28,49 +32,52 @@
                 is great! Hope one day you can join us here!
             </p>
         </div>
-        <div class="text-fbksite-darkgreyblue flex xl:items-start items-start justify-end
-        xl:col-start-2 xl:row-start-1 col-start-2 row-start-1">
+        <div class="text-fbksite-darkgreyblue flex xl:items-start items-start 
+        justify-end xl:col-start-12 xl:row-start-1 col-start-4 row-start-1">
             <div class="relative h-[120px] m-3 mt-10 p-2 stamp-border-image">
                 <figure>
-                    <p class="z-10 text-[10px] text-center md:mr-auto">ONE CORN</p>
-                    <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" src={cornimage} />
+                    <p class="z-10 text-[10px] text-center md:mr-auto">
+                        ONE CORN
+                    </p>
+                    <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" 
+                    src={cornimage} />
                 </figure>
             </div>
             <div class="relative h-[120px] m-3 mt-10 p-2 stamp-border-image">
-                    <p class="z-10 text-[10px] text-center mr-auto">ONE CORN</p>
-                    <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" src={cornimage} />
+                    <p class="z-10 text-[10px] text-center mr-auto">
+                        ONE CORN
+                    </p>
+                    <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" 
+                    src={cornimage} />
             </div>
         </div>
-        <div class="grid grid-cols-1 grid-rows-3">
-            <div class="flex items-end col-start-1 row-start-2 xl:row-start-5 xl:visible invisible
-            border-l-4 border-b-1 pl-10 mr-20 items-end">
-            </div>
-            <div class="flex items-end col-start-2 row-start-2 xl:row-start-6 row-start-3
-            border-l-4 border-b-1 pl-10 mr-20 items-end">
-                <p class="text-fbksite-darkgreyblue xl:text-[2rem] text-[1.5rem] 
-                indie-flower-regular font-bold">
-                    Sucorn 10709
-                </p>
-            </div>
-            <div class="flex xl:items-end col-start-2 row-start-2 xl:row-start-7 xl:visible invisible
-            border-l-4 border-b-1 pl-10 mr-20">
-                
-            </div>
-            <div class="flex xl:items-end xl:col-start-2 row-start-2 xl:row-start-8 col-start-2 row-start-4 
-            border-l-4 border-b-1 pl-10 mr-20 items-end">
-                <p class="text-fbksite-darkgreyblue xl:text-[2rem] text-[1.5rem] 
-                indie-flower-regular font-bold">
-                    Shirakami Temple, 65-09
-                </p>
-            </div>
-            <div class="flex xl:items-end xl:col-start-2 row-start-2 xl:row-start-9 col-start-2 row-start-5
-            border-l-4 border-b-1 pl-10 mr-20 items-end">
-                <p class="text-fbksite-darkgreyblue xl:text-[2rem] text-[1.5rem] 
-                indie-flower-regular font-bold">
-                    FBKINGDOM
-                </p>
-            </div>
+        <div class="xl:col-start-8 xl:col-span-12 xl:row-start-12 xl:row-end-20
+        col-start-3 col-end-4 row-start-3 row-end-8">
+            <p class="xl:w-120 md:w-80 w-40 text-fbksite-darkgreyblue 
+            xl:text-[2rem] text-[1rem] 
+            indie-flower-regular font-bold border-l-4 border-b-1 pl-10 mr-20">
+                Sucorn 10709
+            </p>
+            <p class="xl:w-120 md:w-80 w-40 text-transparent border-fbksite-darkgreyblue 
+            xl:text-[2rem] text-[1.5rem] 
+            indie-flower-regular border-l-4 border-b-1 pl-10">
+                aaaaa
+            </p>
+            <p class="xl:w-120 md:w-80 w-40 text-fbksite-darkgreyblue 
+            xl:text-[2rem] text-[1rem] 
+            indie-flower-regular font-bold border-l-4 border-b-1 pl-10 mr-20">
+                Shirakami Temple, 65-09
+            </p>
+            <p class="xl:w-120 md:w-80 w-40 text-transparent border-fbksite-darkgreyblue 
+            xl:text-[2rem] text-[1.5rem] 
+            indie-flower-regular border-l-4 border-b-1 pl-10 mr-20 ">
+                aaaaa
+            </p>
+            <p class="xl:w-120 md:w-80 w-40 text-fbksite-darkgreyblue 
+            xl:text-[2rem] text-[1rem] 
+            indie-flower-regular font-bold border-l-4 border-b-1 pl-10 mr-20">
+                FBKINGDOM
+            </p>
         </div>
-        
     </div>
 </div>
