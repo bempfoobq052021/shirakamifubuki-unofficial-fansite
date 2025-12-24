@@ -26,7 +26,7 @@
         “No way... and by rules…?”  <br />
         “The rules so that the Halloween party may be enjoyed to its fullest.“<br /><br />
 
-        See more at <a href="/translation/FBKINGDOM_EP1">FBKINGDOM Stories Translation</a>
+        See more at <a href="/translations/FBKINGDOM_EP1">FBKINGDOM Stories Translation</a>
         </div>
     </div>
 </div>

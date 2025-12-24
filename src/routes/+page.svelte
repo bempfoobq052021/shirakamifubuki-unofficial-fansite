@@ -38,10 +38,14 @@
         <div class="relative w-[100vh-10rem] h-[90vh] bg-fbksite-osmanthus 
         top-88px border-1">
             <div class="h-[10vh] w-full border-2">
-                <p class="text-10 text-fbksite-darkblue text-center">The Kings Times</p>
+                <p class="text-10 text-fbksite-darkblue text-center">
+                    The Kings Times
+                </p>
             </div>
             <div class="h-[10vh] w-full border-2">
-                <p class="text-10 text-fbksite-darkblue text-center">Today's stream starts at ...</p>
+                <p class="text-10 text-fbksite-darkblue text-center">
+                    Today's stream starts at ...
+                </p>
             </div>
             <div class="grid grid-cols-2">
                 <div class="flex border-2 h-[70vh] items-center justify-center">

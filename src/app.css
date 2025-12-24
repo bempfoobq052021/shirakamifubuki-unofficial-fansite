@@ -6,8 +6,6 @@
 @plugin '@tailwindcss/typography';
 @plugin 'flowbite/plugin';
 
-@source "../node_modules/flowbite";
-
 @custom-variant dark (&:where(.dark, .dark *));
 
 /* @link https://utopia.fyi/type/calculator?c=360,18,1.2,3200,32,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
