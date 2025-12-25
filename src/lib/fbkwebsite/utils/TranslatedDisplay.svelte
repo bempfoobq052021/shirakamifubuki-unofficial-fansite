@@ -1,4 +1,5 @@
 <script>
+    import {base} from '$app/paths';
 </script>
 
 <div class="bg-image-paper bg-cover p-10">
@@ -26,7 +27,7 @@
         “No way... and by rules…?”  <br />
         “The rules so that the Halloween party may be enjoyed to its fullest.“<br /><br />
 
-        See more at <a href="/translations">FBKINGDOM Stories Translation</a>
+        See more at <a href="{base}/translations">FBKINGDOM Stories Translation</a>
         </div>
     </div>
 </div>
