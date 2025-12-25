@@ -28,6 +28,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Dump github context
+        run:   echo "$GITHUB_CONTEXT"
+        shell: bash
+        env:
+         GITHUB_CONTEXT: ${{ toJson(github) }}
+
       # If you're using pnpm, add this step then change the commands and cache key below to use `pnpm`
       # - name: Install pnpm
       #   uses: pnpm/action-setup@v3
