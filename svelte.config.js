@@ -20,7 +20,7 @@ const config = {
 		paths: {
 			// @see https://svelte.dev/docs/kit/adapter-static#GitHub-Pages
 			// I added base here and in deploy and it doesn't work. Why.
-			base: process.argv.includes("dev") ? "" : "bempfoobq052021.github.io/shirakamifubuki-uno"
+			base: process.argv.includes("dev") ? "" : "bempfoobq052021.github.io"
 		}
 	},
 	extensions: ['.svelte', '.svx']
