@@ -49,6 +49,8 @@ jobs:
           static_site_generator: sveltekit
 
       - name: build
+        env: 
+          BASE_PATH: shirakamifubuki-unofficial-fansite
         run: npm run build
 
       - name: Upload Artifacts
