@@ -13,14 +13,12 @@ const config = {
 			// these options are set automatically — see below
 			pages: 'build',
 			assets: 'build',
-			fallback: "404.html",
+			fallback: "index.html",
 			precompress: false,
 			strict: true
 		}),
-		paths: {
-			// @see https://svelte.dev/docs/kit/adapter-static#GitHub-Pages
-			// I added base here and in deploy and it doesn't work. Why.
-			base: process.argv.includes("dev") ? "" : "bempfoobq052021.github.io"
+		prerender: {
+			handleHttpError: 'warn'
 		}
 	},
 	extensions: ['.svelte', '.svx']

@@ -18,7 +18,7 @@
             <a onclick={backclick} href="">&larr;{ post.prev }</a>
         </div>
         <div class="text-black">
-            <a href="./index.html">Home</a>
+            <a href="../">Home</a>
         </div>
         <div class="text-black">
             <a onclick={frontclick} href="">{ post.next }&rarr;</a>
