@@ -50,7 +50,7 @@ jobs:
 
       - name: build
         env: 
-          BASE_PATH: shirakamifubuki-unofficial-fansite
+          BASE_PATH: "https://bempfoobq052021.github.io/shirakamifubuki-unofficial-fansite"
         run: npm run build
 
       - name: Upload Artifacts
