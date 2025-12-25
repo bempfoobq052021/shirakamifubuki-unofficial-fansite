@@ -34,7 +34,7 @@
     <HP2ndLetter />
     <HP3rdActivities />
     <TranslatedDisplay />
-     <div class="bg-white p-10">
+     <!-- <div class="bg-white p-10">
         <div class="relative w-[100vh-10rem] h-[90vh] bg-fbksite-osmanthus 
         top-88px border-1">
             <div class="h-[10vh] w-full border-2">
@@ -67,6 +67,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
