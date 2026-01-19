@@ -1,5 +1,5 @@
 <script>
-    import { posts } from './tld.js';
+    import { posts } from '../tld.js';
     let count = $state(0);
     let post = $derived(posts[count]);
     function backclick(){
@@ -18,7 +18,7 @@
             <a onclick={backclick} href="">&larr;{ post.prev }</a>
         </div>
         <div class="text-black">
-            <a href="../">Home</a>
+            <a href="../homepage">Home</a>
         </div>
         <div class="text-black">
             <a onclick={frontclick} href="">{ post.next }&rarr;</a>
@@ -37,7 +37,7 @@
         <p class="text-base md:text-xl text-center text-fbksite-darkblue">
             Translators: Caligula, Ruanronan, Nyan, Silver, Xyrix</p>
         <p class="text-base md:text-xl text-center text-fbksite-darkblue">
-            Proofreaders: Calran, Ruanronan, Xyrik and co., Sifo</p>
+            Proofreaders: Caligula, Calran, Ruanronan, Xyrik and co., Sifo</p>
     </div>
     <div class="flex fbkingdom-novel-translation mt-10 
     items-center justify-center w-full h-full">

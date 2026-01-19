@@ -1,7 +1,7 @@
 export const posts = [
     {
         slug: 'FBKINGDOM_EP1', prev: 'FBKINGDOM_EP1', next: 'FBKINGDOM_EP2',
-        title: '“FBKINGDOM STORY” Translation - EP1',
+        title: '“FBKINGDOM STORY” - EP1',
         content: `
         <p>This is our journey.</p>
         <br>
@@ -468,7 +468,7 @@ export const posts = [
     }, 
     {
         slug: 'FBKINGDOM_EP2', prev: 'FBKINGDOM_EP1', next: 'FBKINGDOM_EP2',
-        title: '“FBKINGDOM STORY” Translation - EP2',
+        title: '“FBKINGDOM STORY” - EP2',
         content: `
         <p>The Underworld.</p>
         <br>

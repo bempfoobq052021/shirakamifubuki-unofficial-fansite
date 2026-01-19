@@ -1,0 +1,114 @@
+<html>
+<head>
+    <style>
+        #frames {
+        }
+
+        #frames span {
+          position: fixed;
+          display: block;
+        }
+        #frames .borders span {
+          background-color: #b29b64;
+        }
+        #frames .inner-borders span {
+          background-color: #b29b64;
+        }
+
+        .position-control-top {
+          top: 0;
+          left: 0;
+        }
+
+        .position-control-right {
+          top: 0;
+          right: 0;
+        }
+
+        .position-control-bottom {
+          bottom: 0;
+          left: 0;
+        }
+
+        .position-control-left {
+          top: 0;
+          left: 0;
+        }
+
+        .border-top {
+          width: 100%;
+          height: 3px;
+        }
+        .inner-border-top {
+          height: 1px;
+          top: var(--inner-border-padding);
+        }
+
+        .border-right {
+          width: 3px;
+          height: 1110vh;
+        }
+        .inner-border-right {
+          height: 1px;
+          right: var(--inner-border-padding);
+        }
+
+        .border-bottom {
+          width: 100%;
+          height: 3px;
+        }
+        .inner-border-bottom {
+          height: 1px;
+          bottom: var(--inner-border-padding);
+        }
+
+        .border-left {
+          width: 3px;
+          height: 1110vh;
+        }
+        .inner-border-left-position {
+          height: 1px;
+          left: var(--inner-border-padding);
+        }
+
+        #frames .border-corner {
+          background: no-repeat url("corn_corner.svg");
+          background-size: contain;
+          width: clamp(20px, 2em, 300px);
+          height: clamp(20px, 2em, 300px);
+        }
+
+        .corner-topleft {
+          transform: rotateZ(135deg);
+        }
+
+        .corner-topright {
+          transform: rotateZ(-135deg);
+        }
+
+        .corner-bottomright {
+          transform: rotateZ(-45deg);
+        }
+
+        .corner-bottomleft {
+          transform: rotateZ(45deg);
+        }
+    </style>
+</head>
+<body style="background-color: black">
+    <div id="frames">
+        <div class="borders">
+            <span class="position-control-top border-top"></span>
+            <span class="position-control-right border-right"></span>
+            <span class="position-control-bottom border-bottom"></span>
+            <span class="position-control-left border-left"></span>
+        </div>
+        <div class="corners">
+            <span class="position-control-top border-corner"></span>
+            <span class="position-control-right border-corner corner-topright"></span>
+            <span class="position-control-bottom border-corner corner-bottomright"></span>
+            <span class="position-control-left border-corner corner-bottomleft"></span>
+        </div>
+    </div>
+</body>
+</html>

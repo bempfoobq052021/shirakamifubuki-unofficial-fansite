@@ -2,7 +2,7 @@
     import {base} from '$app/paths';
 </script>
 
-<div class="bg-image-paper bg-cover p-10">
+<div class="bg-white p-10">
     <div class="w-full text-fbksite-darkblue ">
         <p class="text-[2rem] md:text-[4rem] text-center fbkingdom-novel-translation font-weight-400">“FBKINGDOM STORY” Translation - EP1</p>
         <br/>

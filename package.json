@@ -66,6 +66,7 @@
 		"svelte"
 	],
 	"dependencies": {
+		"animejs": "^4.2.2",
 		"mdsvex": "^0.12.6"
 	}
 }

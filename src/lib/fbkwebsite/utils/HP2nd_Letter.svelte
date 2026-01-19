@@ -2,7 +2,7 @@
     import cornimage from "$lib/fbkwebsite/assets/smolCorn.webp";
 </script>
 
-<div class="bg-white p-10">
+<div class="bg-white pr-10 pl-10 absolute">
     <div class="md:w-[100vw-10rem] md:h-[90vh] w-[100vh-5rem] grid 
     xl:grid-cols-12 xl:grid-rows-20 
     grid-cols-4 auto-rows-auto

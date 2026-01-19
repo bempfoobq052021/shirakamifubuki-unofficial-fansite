@@ -1,72 +1,51 @@
-<script lang="ts">
-    import HP1st_WelcomeSection from '$lib/fbkwebsite/utils/HP1st_WelcomeSection.svelte'
-    import HP2ndLetter from '$lib/fbkwebsite/utils/HP2nd_Letter.svelte';
-    import HP3rdActivities from '$lib/fbkwebsite/utils/HP3rd_Activities.svelte';
-    import TranslatedDisplay from '$lib/fbkwebsite/utils/TranslatedDisplay.svelte';
+<script>
+    import { posts } from './tld.js';
+    import { animate } from 'animejs';
 
+    let count = $state(0);
+    let post = $derived(posts[count]);
+    function backclick(){
+        if(count < 0) count = 0;
+        else count = count - 1;
+    }
+    function frontclick(){
+        if(count < 0) count = 0;
+        else count = count + 1;
+    }
 </script>
 
-<div class="overflow-x-hidden">
-<!--    <div class="envelope-wrapper">
-        <div class="wrapper">
-            <div class="lid one"></div>
-            <div class="lid two"></div>
-            <div class="envelope"></div>
-            <div class="letter letter-right">
-                <p>Right</p>
-            </div>
-            <div class="letter letter-left">
-                <p>Welcome FBKINGDOM!</p>
-            </div>
+<div class="overflow-x-hidden bg-image-paper bg-cover p-10">
+    <div class="w-<80%> flex justify-between">
+        <div class="text-black">
+            <a onclick={backclick} href="">&larr;{ post.prev }</a>
+        </div>
+        <div class="text-black">
+            <a href="/homepage">Home</a>
+        </div>
+        <div class="text-black">
+            <a onclick={frontclick} href="">{ post.next }&rarr;</a>
         </div>
     </div>
-    <div>
-        <div class="front w-[100vh-10rem] h-[100vh] bg-fbksite-osmanthus animation-go-up">
+    <div class="w-full text-fbksite-darkblue ">
+        <p class="text-[2rem] md:text-[4rem] text-center 
+        fbkingdom-novel-translation font-weight-400">
+            { post.title }
+        </p>
+        <br/>
+        <p class="text-base md:text-xl text-center text-fbksite-darkblue">
+            Original Ideas: Shirakami Fubuki</p>
+        <p class="text-base md:text-xl text-center text-fbksite-darkblue">
+            Writer : Kayano Niko</p>
+        <p class="text-base md:text-xl text-center text-fbksite-darkblue">
+            Translators: Caligula, Ruanronan, Nyan, Silver, Xyrix</p>
+        <p class="text-base md:text-xl text-center text-fbksite-darkblue">
+            Proofreaders: Caligula, Calran, Ruanronan, Xyrik and co., Sifo</p>
+    </div>
+    <div class="flex fbkingdom-novel-translation mt-10 
+    items-center justify-center w-full h-full">
+        <div class="md:w-[60rem] w-[90wh] p-4 overflow-y-visible overflow-x-hidden 
+        text-black wrap-anywhere">
+            {@html post.content }
         </div>
-        <div class="back w-[100vh-10rem] h-[100vh] bg-white animation-drop-and-open-letter">
-        </div>
-    <div class="back w-[100vh-10rem] h-[100vh] bg-cyan animation-drop-and-open-letter">
-        </div>
-        <div class="back w-[100vh-10rem] h-[100vh] bg-blue animation-drop-and-open-letter">
-        </div> 
-    </div>-->
-    <HP1st_WelcomeSection />
-    <HP2ndLetter />
-    <HP3rdActivities />
-    <TranslatedDisplay />
-     <!-- <div class="bg-white p-10">
-        <div class="relative w-[100vh-10rem] h-[90vh] bg-fbksite-osmanthus 
-        top-88px border-1">
-            <div class="h-[10vh] w-full border-2">
-                <p class="text-10 text-fbksite-darkblue text-center">
-                    The Kings Times
-                </p>
-            </div>
-            <div class="h-[10vh] w-full border-2">
-                <p class="text-10 text-fbksite-darkblue text-center">
-                    Today's stream starts at ...
-                </p>
-            </div>
-            <div class="grid grid-cols-2">
-                <div class="flex border-2 h-[70vh] items-center justify-center">
-                    <div class="rotate-journey-left border-2">
-                        <ul>
-                            <li>Shriakami Fubuki's YouTube Channel</li>
-                            <li>Hololive Official Homepage</li>
-                            <li>Shirakami Fubuki's Twitter</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex border-2 h-[70vh] items-center justify-center">
-                    <div class="rotate-journey-right border-2">
-                        <ul>
-                            <li>Shirakami Temple Discord</li>
-                            <li>Virtual YouTuber, Shirkaami Fubuki's Page</li>
-                            <li>Unofficial hololive wiki</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </div> -->
+    </div>
 </div>

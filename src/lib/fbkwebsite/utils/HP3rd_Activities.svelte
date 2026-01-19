@@ -20,7 +20,7 @@
                     <img class="object-contain" src={cornimage} alt="cornimage">
                 </div>
                 <p class="font-[2rem] text-black text-center">
-                    Exploring FBKINGDOM
+                    Exploring The Kingdom
                 </p>
             </div>
             <div class="border-2 content-center stamp-border-image justify-center
