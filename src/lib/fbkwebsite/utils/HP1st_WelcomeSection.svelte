@@ -1,83 +1,78 @@
 <script lang="ts">
     import cornimage from "$lib/fbkwebsite/assets/smolCorn.webp";
-    import { animate, utils, onScroll } from 'animejs';
-
-	import { onMount } from 'svelte';
-    onMount ( () => {
-        const [ container ] = utils.$('.scroll-container');
-        const debug = true;
-        //Query DOM for trigger and target objects
-        const letter_inside = document.getElementById("letter_inside");
-
-        //Do Animation Here
-
-    });
+    import vlg_skb_01 from "$lib/fbkwebsite/assets/haku_sukonbu_cut_01_01.png";
+    import vlg_skb_02 from "$lib/fbkwebsite/assets/haku_sukonbu_cut_01_02.png";
+    import bg_hero_webm from "$lib/fbkwebsite/videos/bg-hero.webm";
+    import bg_hero_mp4 from "$lib/fbkwebsite/videos/bg-hero.mp4";
 </script>
 
-<div id="letter_topside" class="bg-white z-10 h-[100vh] w-[100vw]">
-    <div class="m-[37px] h-[calc(100vh-90px)] w-[calc(100vw-90px)]
-    grid grid-cols-2 grid-rows-2 gap-4 auto-rows-auto
-    bg-image-fbkingdom-vista bg-cover bg-center font-serif">
-        <div class="text-fbksite-darkgreyblue grid items-start 
-        justify-items-start row-start-1">
-            <p class="lavishly-yours-regular md:text-[10vh] text-[5vh] ml-[5vw]">
-                Greetings From
-            </p>
+<div id="letter_topside" class="bg-fbksite-lightosmanthus z-10 h-[99vh] w-[99vw]">
+    <div class="font-serif z-15">
+        <div class="absolute size-full p-[37px] z-10 bg-fbksite-lightosmanthus">
+                <video class="absolute w-[calc(98vw-50px)] h-[calc(98vh-50px)] object-cover 
+                z-5 object-[70%_0%] md:object-center" 
+                playsinline loop muted autoplay id="bgvid">
+                    <source src={bg_hero_webm} type="video/webm">
+                    <source src={bg_hero_mp4} type="video/mp4">
+                </video>
+            <span class="absolute top-0 left-0 h-[50px] w-full 
+            bg-fbksite-lightosmanthus z-15"></span>
+            <span class="absolute top-0 right-0 h-full w-[50px] 
+            bg-fbksite-lightosmanthus z-15"></span>
+            <span class="absolute bottom-0 left-0 h-[50px] w-full 
+            bg-fbksite-lightosmanthus z-15"></span>
+            <span class="absolute top-0 left-0 h-full w-[50px] 
+            bg-fbksite-lightosmanthus z-15"></span>
         </div>
-        <div class="col-start-2 row-start-2 grid items-end justify-items-end-safe">
-            <p class="text-fbksite-darkgreyblue alice-bold lg:text-[10vh] 
-            md:text-[7vh] sm:text-[5vh] text-[3vh] tracking-wide text-left mr-[5vw]">
-            FBKINGDOM
-        </p>
+        <div class="absolute text-title left-[10vw] top-[5vh] z-15">
+            <p class="montez-regular md:text-[10vh] text-[5vh]">
+                Greetings From</p>
+        </div>
+        <div class="absolute text-title right-[15vw] md:bottom-[5vh] bottom-[15vh] z-15">
+            <p class="montez-regular lg:text-[10vh] text-[6vh] tracking-wide text-left">
+            FBKINGDOM</p>
         </div>
     </div>
 </div>
 
-<div id="letter_inside" class="relative bg-white z-10 h-[100vh] w-[100vw]">
-    <div class="m-[37px] h-[calc(100vh-90px)] w-[calc(100vw-90px)]
-    grid xl:grid-cols-12 xl:grid-rows-20 grid-cols-4 
-    auto-rows-auto gap-x-5 gap-y-5 bg-fbksite-lightosmanthus font-serif p-5">
-        <div class="text-fbksite-darkgreyblue flex xl:items-start items-start 
-        xl:col-start-1 xl:row-start-3 xl:col-end-8 xl:row-end-5
-        col-start-1 col-end-4 row-start-2 row-end-3">
-            <p class="xl:text-[4rem] md:text-[2.5rem] text-[2rem] xl:ml-20 ml-5 
+<div id="letter_inside" class="relative bg-white z-10 h-[99vh] w-[99vw]">
+    <div class="p-[37px] size-full bg-fbksite-lightosmanthus font-serif p-5">
+        <div class="relative text-fbksite-darkgreyblue top-[30%] md:top-[10%]">
+            <p class="xl:text-[7rem] md:text-[2.5rem] text-[2rem] xl:ml-20 ml-5 
             lavishly-yours-regular tracking-normal">
                 Dear Friends around the globe,
             </p>
         </div>
-        <div class="text-fbksite-darkgreyblue flex items-start 
-        xl:col-start-1 xl:col-end-7 xl:row-start-7 xl:row-end-20
-        col-start-1 col-end-3 row-start-3 row-end-8">
-            <p class="2xl:text-[1.6rem] xl:text-[1.2rem] xl:ml-20 md:text-[1rem] 
-            text-[0.6rem] ml-5 indie-flower-regular">
-                I'm writing this from a desk, in a face, 
-                in a city of beautiful gardens. The sun
-                is shining brightly and I'm enjoying 
-                a simple afternoon tea. Our travel, 
-                blessed with enjoyment and turmoil alike,
-                led us into this amazing place. The king, 
-                Shirakami Fubuki, is a kind soul even 
-                to travellers like us - and the food here
+        <div class="relative text-fbksite-darkgreyblue 
+        top-[40%] md:top-[30%] max-w-[50%]">
+            <p class="text-[1rem] md:text-[1.5rem] xl:ml-20 
+            ml-5 indie-flower-regular">
+                I'm writing this from a desk, in a face, in a city of beautiful gardens. 
+                The sun is shining brightly and I'm enjoying a simple afternoon tea. 
+                Our travel, blessed with enjoyment and turmoil alike,
+                led us into this amazing place. The king, Shirakami Fubuki, 
+                is a kind soul to travellers like us - and the food here
                 is great! Hope one day you can join us here!
             </p>
         </div>
-        <div class="text-fbksite-darkgreyblue flex absolute right-[50px] top-[50px] m-3">
+        <div class="text-fbksite-darkgreyblue flex absolute 
+        right-[50px] top-[50px] m-3">
             <div class="relative h-[120px] stamp-border-image">
-                <figure>
-                    <p class="z-10 text-[10px] text-center md:mr-auto">
-                        ONE CORN
-                    </p>
-                    <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" 
-                    src={cornimage} />
-                </figure>
+                <p class="z-10 text-[10px] text-center md:mr-auto">ONE CORN</p>
+                <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" 
+                src={cornimage} />
             </div>
             <div class="relative h-[120px] stamp-border-image">
-                    <p class="z-10 text-[10px] text-center mr-auto">
-                        ONE CORN
-                    </p>
+                    <p class="z-10 text-[10px] text-center mr-auto">ONE CORN</p>
                     <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" 
                     src={cornimage} />
             </div>
+        </div>
+        <div class="absolute bottom-[10%] md:bottom[30%] right-[0%] m-[20px] md:m-[50px] md:flex">
+            <img alt="Village Sucorns" class="relative md:max-h-[300px] max-h-[100px] 
+            -left-[20px] m-10 md:m-3" src={vlg_skb_01} />
+            <img alt="Village Sucorns" class="relative md:max-h-[300px] max-h-[100px] 
+            left-[20px] m-10 md:m-3" src={vlg_skb_02} />
         </div>
     </div>
 </div>

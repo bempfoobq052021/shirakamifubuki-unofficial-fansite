@@ -7,7 +7,7 @@
 </script>
 
 <div class="bg-white p-10">
-    <div class="relative w-[100vh-10rem] h-[90vh] top-88px border-1">
+    <div class="relative w-[100vh-10rem] top-88px border-1">
         <div class="h-[10vh] mb-30 flex w-full justify-center items-center">
             <p class="xl:text-[9rem] text-[3rem] text-fbksite-darkblue">The Kings Times</p>
         </div>

@@ -1,51 +1,62 @@
-<script>
-    import { posts } from './tld.js';
-    import { animate } from 'animejs';
+<script lang="ts">
+    import type { PageProps } from './$types.js';
+    import HP1st_WelcomeSection from '$lib/fbkwebsite/utils/HP1st_WelcomeSection.svelte'
+    import HP2ndLetter from '$lib/fbkwebsite/utils/HP2nd_Letter.svelte';
+    import TranslatedDisplay from '$lib/fbkwebsite/utils/TranslatedDisplay.svelte';
+    import HP4th_KingsTimes from '$lib/fbkwebsite/utils/HP4th_KingsTimes.svelte';
+    import HP3rdActivities from '$lib/fbkwebsite/utils/HP3rd_Activities.svelte';
 
-    let count = $state(0);
-    let post = $derived(posts[count]);
-    function backclick(){
-        if(count < 0) count = 0;
-        else count = count - 1;
-    }
-    function frontclick(){
-        if(count < 0) count = 0;
-        else count = count + 1;
-    }
+    let { data }: PageProps = $props();
 </script>
 
-<div class="overflow-x-hidden bg-image-paper bg-cover p-10">
-    <div class="w-<80%> flex justify-between">
-        <div class="text-black">
-            <a onclick={backclick} href="">&larr;{ post.prev }</a>
-        </div>
-        <div class="text-black">
-            <a href="/homepage">Home</a>
-        </div>
-        <div class="text-black">
-            <a onclick={frontclick} href="">{ post.next }&rarr;</a>
+<!-- <img class="site-overlay bg-no-repeat" alt=""/> -->
+
+<div id="frames">
+    <div class="borders">
+        <span class="position-control-top border-top"></span>
+        <span class="position-control-right border-right"></span>
+        <span class="position-control-bottom border-bottom"></span>
+        <span class="position-control-left border-left"></span>
+    </div>
+    <div class="inner-borders">
+        <span class="position-control-top inner-border-top"></span>
+        <span class="position-control-right inner-border-right"></span>
+        <span class="position-control-bottom inner-border-bottom"></span>
+        <span class="position-control-left inner-border-left"></span>
+    </div>
+    <div class="corners">
+        <span class="position-control-top border-corner corner-topleft"></span>
+        <span class="position-control-right border-corner corner-topright"></span>
+        <span class="border-corner corner-bottomright"></span>
+        <span class="border-corner corner-bottomleft"></span>
+    </div>
+</div>
+<div class="overflow-x-hidden bg-white">
+<!--    <div class="envelope-wrapper">
+        <div class="wrapper">
+            <div class="lid one"></div>
+            <div class="lid two"></div>
+            <div class="envelope"></div>
+            <div class="letter letter-right">
+                <p>Right</p>
+            </div>
+            <div class="letter letter-left">
+                <p>Welcome FBKINGDOM!</p>
+            </div>
         </div>
     </div>
-    <div class="w-full text-fbksite-darkblue ">
-        <p class="text-[2rem] md:text-[4rem] text-center 
-        fbkingdom-novel-translation font-weight-400">
-            { post.title }
-        </p>
-        <br/>
-        <p class="text-base md:text-xl text-center text-fbksite-darkblue">
-            Original Ideas: Shirakami Fubuki</p>
-        <p class="text-base md:text-xl text-center text-fbksite-darkblue">
-            Writer : Kayano Niko</p>
-        <p class="text-base md:text-xl text-center text-fbksite-darkblue">
-            Translators: Caligula, Ruanronan, Nyan, Silver, Xyrix</p>
-        <p class="text-base md:text-xl text-center text-fbksite-darkblue">
-            Proofreaders: Caligula, Calran, Ruanronan, Xyrik and co., Sifo</p>
-    </div>
-    <div class="flex fbkingdom-novel-translation mt-10 
-    items-center justify-center w-full h-full">
-        <div class="md:w-[60rem] w-[90wh] p-4 overflow-y-visible overflow-x-hidden 
-        text-black wrap-anywhere">
-            {@html post.content }
+    <div>
+        <div class="front w-[100vh-10rem] h-[100vh] bg-fbksite-osmanthus animation-go-up">
         </div>
-    </div>
+        <div class="back w-[100vh-10rem] h-[100vh] bg-white animation-drop-and-open-letter">
+        </div>
+    <div class="back w-[100vh-10rem] h-[100vh] bg-cyan animation-drop-and-open-letter">
+        </div>
+        <div class="back w-[100vh-10rem] h-[100vh] bg-blue animation-drop-and-open-letter">
+        </div> 
+    </div>-->
+    <HP1st_WelcomeSection />
+    <TranslatedDisplay />
+    <HP3rdActivities />
+    <HP4th_KingsTimes />
 </div>

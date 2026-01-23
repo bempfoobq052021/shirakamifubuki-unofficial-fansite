@@ -18,6 +18,12 @@
         <span class="position-control-bottom border-bottom"></span>
         <span class="position-control-left border-left"></span>
     </div>
+    <div class="inner-borders">
+        <span class="position-control-top inner-border-top"></span>
+        <span class="position-control-right inner-border-right"></span>
+        <span class="position-control-bottom inner-border-bottom"></span>
+        <span class="position-control-left inner-border-left"></span>
+    </div>
     <div class="corners">
         <span class="position-control-top border-corner corner-topleft"></span>
         <span class="position-control-right border-corner corner-topright"></span>
