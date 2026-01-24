@@ -1,9 +1,9 @@
 <script>
     import {base} from '$app/paths';
 </script>
-
-<div class="bg-white p-10">
-    <div class="w-full text-fbksite-darkblue ">
+ 
+<div class="bg-white p-10 border-1">
+    <div class="w-full text-fbksite-darkblue">
         <p class="text-[2rem] md:text-[4rem] text-center fbkingdom-novel-translation font-weight-400">“FBKINGDOM STORY” Translation - EP1</p>
         <br/>
         <p class="text-base md:text-xl text-center text-fbksite-darkblue">Original Ideas: Shirakami Fubuki</p>

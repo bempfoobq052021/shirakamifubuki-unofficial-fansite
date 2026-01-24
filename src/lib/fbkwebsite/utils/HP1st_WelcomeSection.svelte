@@ -69,9 +69,9 @@
             </div>
         </div>
         <div class="absolute bottom-[10%] md:bottom[30%] right-[0%] m-[20px] md:m-[50px] md:flex">
-            <img alt="Village Sucorns" class="relative md:max-h-[300px] max-h-[100px] 
+            <img alt="Village Sucorns" class="relative md:max-h-[200px] max-h-[100px] 
             -left-[20px] m-10 md:m-3" src={vlg_skb_01} />
-            <img alt="Village Sucorns" class="relative md:max-h-[300px] max-h-[100px] 
+            <img alt="Village Sucorns" class="relative md:max-h-[200px] max-h-[100px] 
             left-[20px] m-10 md:m-3" src={vlg_skb_02} />
         </div>
     </div>

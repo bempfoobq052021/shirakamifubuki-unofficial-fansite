@@ -742,10 +742,11 @@ html {
 }
 
 h1 {
+  margin: auto;
+  text-align: center;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
-  font-size: clamp(1.2rem, 2rem, 2.5rem);
-  margin: auto;
+  color: var(--color-fbksite-darkblue);
 }
 
 a {
@@ -764,4 +765,9 @@ a :hover{
   1px -1px 0 #ffffff, 
   -1px 1px 0 #ffffff, 
   1px 1px 0 #ffffff;
+}
+
+.links li {
+  color: black;
+  font-size: clamp(.8rem, 1rem, 2rem);
 }

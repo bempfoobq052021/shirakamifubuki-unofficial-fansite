@@ -9,7 +9,7 @@
 <div class="bg-white p-10">
     <div class="relative w-[100vh-10rem] top-88px border-1">
         <div class="h-[10vh] mb-30 flex w-full justify-center items-center">
-            <p class="xl:text-[9rem] text-[3rem] text-fbksite-darkblue">The Kings Times</p>
+            <h1 class="lg:text-[9rem] text-[3rem]">THE KING'S TIMES</h1>
         </div>
         <div class="grid xl:grid-cols-2">
             <div class="border-2 flex justify-center w-full xl:m-5 mb-5 shrink">
@@ -40,13 +40,25 @@
                 </div>
             </div>
             <div class="flex xl:col-start-2 xl:col-end-2 xl:row-start-1 xl:row-end-5 items-center justify-center">
-                <ul class="">
-                    <li class="text-wrap">Shriakami Fubuki's YouTube Channel</li>
-                    <li class="text-wrap">Hololive Official Homepage</li>
-                    <li class="text-wrap">Shirakami Fubuki's Twitter</li>
-                    <li class="text-wrap">Shirakami Temple Discord</li>
-                    <li class="text-wrap">Virtual YouTuber, Shirkaami Fubuki's Page</li>
-                    <li class="text-wrap">Unofficial hololive wiki</li>
+                <ul class="links text-[2rem]">
+                    <li class="text-wrap">
+                        <a href="https://www.youtube.com/@ShirakamiFubuki">Shirakami Fubuki's YouTube Channel</a>
+                    </li>
+                    <li class="text-wrap">
+                        <a href="https://hololivepro.com/en/">Shirakami Fubuki's YouTube Channel</a>
+                    </li>
+                    <li class="text-wrap">
+                        <a href="https://x.com/shirakamifubuki">Shirakami Fubuki's Twitter</a>
+                    </li>
+                    <li class="text-wrap">
+                        <a href="https://discord.gg/shirakamitemple">Shirakami Temple Discord</a>
+                    </li>
+                    <li class="text-wrap">
+                        <a href="https://virtualyoutuber.fandom.com/wiki/Shirakami_Fubuki">Virtual YouTuber, Shirkaami Fubuki's Page</a>
+                    </li>
+                    <li class="text-wrap">
+                        <a href="https://hololive.wiki/wiki/Main_Page">Unofficial hololive fan wiki</a>
+                    </li>
                 </ul>
             </div>
         </div>
