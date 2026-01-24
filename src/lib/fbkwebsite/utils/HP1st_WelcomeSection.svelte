@@ -35,7 +35,21 @@
     </div>
 </div>
 
-<div id="letter_inside" class="relative bg-white z-10 h-[99vh] w-[99vw]">
+<div id="letter_inside" class="relative bg-white z-10 md:h-[99vh] w-[99vw]">
+    <div class="text-fbksite-darkgreyblue flex absolute 
+    right-[50px] top-[50px] m-3">
+        <div class="relative h-[120px] stamp-border-image">
+            <p class="z-10 text-[10px] text-center md:mr-auto">ONE CORN</p>
+            <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" 
+            src={cornimage} />
+        </div>
+    </div>
+    <div class="absolute bottom-[10%] md:bottom[30%] right-[0%] m-[10px] md:m-[20px] md:flex">
+        <img alt="Village Sucorns" class="relative md:max-h-[200px] max-h-[100px] 
+        -left-[20px] m-10 md:m-px" src={vlg_skb_01} />
+        <img alt="Village Sucorns" class="relative md:max-h-[200px] max-h-[100px] 
+        left-[20px] m-10 md:m-px" src={vlg_skb_02} />
+    </div>
     <div class="p-[37px] size-full bg-fbksite-lightosmanthus font-serif p-5">
         <div class="relative text-fbksite-darkgreyblue top-[30%] md:top-[10%]">
             <p class="xl:text-[7rem] md:text-[2.5rem] text-[2rem] xl:ml-20 ml-5 
@@ -54,25 +68,6 @@
                 is a kind soul to travellers like us - and the food here
                 is great! Hope one day you can join us here!
             </p>
-        </div>
-        <div class="text-fbksite-darkgreyblue flex absolute 
-        right-[50px] top-[50px] m-3">
-            <div class="relative h-[120px] stamp-border-image">
-                <p class="z-10 text-[10px] text-center md:mr-auto">ONE CORN</p>
-                <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" 
-                src={cornimage} />
-            </div>
-            <div class="relative h-[120px] stamp-border-image">
-                    <p class="z-10 text-[10px] text-center mr-auto">ONE CORN</p>
-                    <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" 
-                    src={cornimage} />
-            </div>
-        </div>
-        <div class="absolute bottom-[10%] md:bottom[30%] right-[0%] m-[20px] md:m-[50px] md:flex">
-            <img alt="Village Sucorns" class="relative md:max-h-[200px] max-h-[100px] 
-            -left-[20px] m-10 md:m-3" src={vlg_skb_01} />
-            <img alt="Village Sucorns" class="relative md:max-h-[200px] max-h-[100px] 
-            left-[20px] m-10 md:m-3" src={vlg_skb_02} />
         </div>
     </div>
 </div>
