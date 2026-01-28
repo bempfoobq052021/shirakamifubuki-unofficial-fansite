@@ -32,29 +32,6 @@
     </div>
 </div>
 <div class="overflow-x-hidden bg-white">
-<!--    <div class="envelope-wrapper">
-        <div class="wrapper">
-            <div class="lid one"></div>
-            <div class="lid two"></div>
-            <div class="envelope"></div>
-            <div class="letter letter-right">
-                <p>Right</p>
-            </div>
-            <div class="letter letter-left">
-                <p>Welcome FBKINGDOM!</p>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="front w-[100vh-10rem] h-[100vh] bg-fbksite-osmanthus animation-go-up">
-        </div>
-        <div class="back w-[100vh-10rem] h-[100vh] bg-white animation-drop-and-open-letter">
-        </div>
-    <div class="back w-[100vh-10rem] h-[100vh] bg-cyan animation-drop-and-open-letter">
-        </div>
-        <div class="back w-[100vh-10rem] h-[100vh] bg-blue animation-drop-and-open-letter">
-        </div> 
-    </div>-->
     <HP1st_WelcomeSection />
     <TranslatedDisplay />
     <HP3rdActivities />

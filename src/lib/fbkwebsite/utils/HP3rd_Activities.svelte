@@ -17,13 +17,13 @@
         </div>
         <div class="grid lg:grid-cols-12 grid-row-4 lg:h-[60vh]
         lg:pl-[8vw] pl-[4vw] pr-[4vw] ">
-            <div class="border-2 items-center content-center stamp-border-image justify-center
+            <a href="/explore" class="border-2 items-center content-center stamp-border-image justify-center
             lg:col-start-1 lg:col-end-3 left-[10vw]">
                 <img alt="Exploration" src={haku_sukonbu_01} />
                 <p class="font-[2rem] text-black text-center">
                     Exploring The Kingdom
                 </p>
-            </div>
+            </a>
             <div class="border-2 content-center stamp-border-image justify-center
             lg:col-start-4 lg:col-end-6">
                 <img alt="Exploration" src={haku_sukonbu_cut_01_01} />

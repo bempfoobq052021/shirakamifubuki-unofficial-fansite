@@ -50,16 +50,16 @@
         <img alt="Village Sucorns" class="relative md:max-h-[200px] max-h-[100px] 
         left-[20px] m-10 md:m-px" src={vlg_skb_02} />
     </div>
-    <div class="p-[37px] size-full bg-fbksite-lightosmanthus font-serif p-5">
+    <section class="p-[37px] size-full bg-fbksite-lightosmanthus font-serif p-5">
         <div class="relative text-fbksite-darkgreyblue top-[30%] md:top-[10%]">
             <p class="xl:text-[7rem] md:text-[2.5rem] text-[2rem] xl:ml-20 ml-5 
             lavishly-yours-regular tracking-normal">
                 Dear Friends around the globe,
             </p>
         </div>
-        <div class="relative text-fbksite-darkgreyblue 
+        <div class="letter-content relative text-fbksite-darkgreyblue 
         top-[40%] md:top-[30%] max-w-[50%]">
-            <p class="text-[1rem] md:text-[1.5rem] xl:ml-20 
+            <p class="text-[1rem] leading-[3rem] md:text-[1.5rem] xl:ml-20 
             ml-5 indie-flower-regular">
                 I'm writing this from a desk, in a face, in a city of beautiful gardens. 
                 The sun is shining brightly and I'm enjoying a simple afternoon tea. 
@@ -69,5 +69,7 @@
                 is great! Hope one day you can join us here!
             </p>
         </div>
-    </div>
+        <div class="letter_content_bg">
+        </div>
+    </section>
 </div>

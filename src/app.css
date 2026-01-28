@@ -771,3 +771,16 @@ a :hover{
   color: black;
   font-size: clamp(.8rem, 1rem, 2rem);
 }
+
+.letter_content_bg{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.letter_content_bg ::after {
+  height: 100%;
+  width: 100%;
+  background-image: url("lib/fbkwebsite/assets/bg_dotted_line_trnsp.svg");
+} 
