@@ -9,22 +9,6 @@
     ];
 </script>
 
-<nav>
-    <div class="logo">
-        <a href="/">My App</a>
-    </div>
-    <ul>
-        {#each navItems as item}
-          <li>
-              <!-- Add an "active" class if the current path matches the item's route -->
-              <a href={item.route} class:active={$page.url.pathname === item.route}>
-                  {item.name}
-              </a>
-          </li>
-      {/each}
-    </ul>
-</nav>
-
 <style>
     nav {
         display: flex;

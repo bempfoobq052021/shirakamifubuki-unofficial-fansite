@@ -13,49 +13,37 @@
     let { data }: PageProps = $props();
 </script>
 
-<div class="min-h-screen bg-fbksite-lightosmanthus">
-    <!-- Header Image - 30% viewport height -->
-    <header class="h-[39vh] relative overflow-hidden">
-    <img 
-        src="{header_image}"
-        alt="Header landscape"
-        class="w-full h-full object-cover object-[0% 20%]"
-    />
-    </header>
+<div class="min-h-screen bg-fbksite-offwhite">
+
+    <div class=""> 
+        <!-- Header Image - 30% viewport height -->
+        <header class="h-[39vh] relative overflow-hidden">
+        <img 
+            src="{header_image}"
+            alt="Header landscape"
+            class="w-full h-full object-cover object-[0% 20%]"
+        />
+        </header>
+    </div>
     
-    <h1 class="w-full text-center text-[10vh] text-fbksite-darkgreyblue"> Characters </h1>
+    <h1 class="width-full text-center text-[10vh] text-fbksite-darkgreyblue"> Characters </h1>
 
     <!-- Content Sections -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <!-- Section 1 -->
-    <section class="mb-16 grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
+    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
+    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="space-y-4">
-            <h2 class="text-3xl">Sukonbu</h2>
+            <h2 class="text-3xl">Chaos Choir</h2>
             <div class="col-md-8 ml-auto mr-auto">
-                <p>
-                The Sukonbu/Sucorns <strong>(すこん部) </strong>represent the Fubuki fans as a whole.
-                They are white creatures with fox ears and a tail made of corn. 
-                The design for the Sucorns originates from a 
-                <a href="https://www.youtube.com/watch?v=Byxr8Sc6bhA"><strong>stream</strong>
-                </a> prior to the "From 1st" concert. 
-                <br> <br>
-                The Japanese fans are more commonly referred to as Sucorns or Sukonbu, 
-                while the overseas viewers are more commonly called Friends.
-                The Japanese mascot typically wears a scarf resembling her original outfit 
-                while the overseas mascot wears a ribbon resembling her 3rd Birthday outfit. 
-                <br> <br>
-                The meaning of the name derives from many words. 
-                "Kon" is the Japanese onomatopoeia for foxes. 
-                "Suko" is slang for liking something, and 部 (bu) means club.
-                "Kon" and "corn" are similar sounding, which explains 
-                the Sukonbu having corn for a tail.
-                Sukonbu also refers to a dried seaweed snack.
-                <br> <br>
-                Sukonbu / Sucorns is also part of FBKINGDOM's citizen 
-                as a commonner and can be seen doing all sorts of job, 
-                ranging from castle guards to assistant librarians. 
-                There's also the Underworld counterpart, which looks
-                a bit more grotesque and scary.
+                <p class="indent-2">
+                    In the footsteps of our favorite artist, there's always 
+                    an interest in singing and other musical arts in our group.
+                    That interest culminated in The Chaos Choir, a virtual choir
+                    involving members of our discord group. 
+                </p>
+                <p class="indent-2">
+                    
                 </p>
             </div>
         </div>
@@ -69,7 +57,8 @@
     </section>
 
     <!-- Section 2 -->
-    <section class="mb-16 grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
+    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
+    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="h-80 overflow-hidden hidden rounded-lg order-2 md:order-1 hidden md:block">
             <img 
                 src="{oruyanke_image}"
@@ -81,10 +70,13 @@
             <h2 class="text-3xl">Oruyanke</h2>
             <p>
                 Oruyanke <strong>(おるやんけ) </strong>are bamboo shoots with Fubuki's tail and ears.
-                The name very roughly means, "They're there!" in Kansai dialect, referring to how bamboo grows in many places and conditions.
+                The name very roughly means, "They're there!" in Kansai dialect, 
+                referring to how bamboo grows in many places and conditions.
                 <br><br>
-                The mascot originated sometime during or before September 2018, making it one of, if not the oldest mascots Fubuki has.
-                Oruyanke also make an appearance in Azur Lane, being a part of Fubuki's character in it.
+                The mascot originated sometime during or before September 2018, 
+                making it one of, if not the oldest mascots Fubuki has.
+                Oruyanke also made an appearance in Azur Lane, 
+                being a part of Fubuki's character in it.
                 <br><br>
                 Oruyanke is part of FBKINGDOM's citizen.
             </p>
@@ -99,19 +91,25 @@
     </section>
 
     <!-- Section 3 -->
-    <section class="mb-16 grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
+    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
+    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="space-y-4">
             <h2 class="text-3xl">Miteiru</h2>
             <p>
-                Miteiru <strong>(ミテイル) </strong> is a mascot that was 
-                <a href="https://twitter.com/shirakamifubuki/status/1315217059257622530"><strong>
-                    introduced shortly after her birthday in 2020.</strong></a> 
-                The mascot fittingly has a tie resembling her third birthday outfit, and also has a similar tail to Fubuki's.
+                Miteiru <strong>(ミテイル) </strong> 
+                is a mascot that was 
+                <a href="https://twitter.com/shirakamifubuki/status/1315217059257622530">
+                    <strong>introduced shortly after her birthday in 2020.</strong>
+                </a> 
+                The mascot fittingly has a tie resembling her third birthday outfit, 
+                and also has a similar tail to Fubuki's.
                 <br><br>
                 The name means "see" or "watch," and it is said to be able to stretch and grow in various ways. 
                 Alongside that, it is very soft, sticks to the ceiling, and doesn't blink. 
                 It has also been revealed that the miteiru is edible and apparently, 
-                <a href="https://www.youtube.com/watch?v=H-RN8x-NFhg&amp;t=7292s"><strong>delicious.</strong></a>
+                <a href="https://www.youtube.com/watch?v=H-RN8x-NFhg&amp;t=7292s">
+                    <strong>delicious.</strong>
+                </a>
                 <br><br>
                 Smaller Miteiru is also part of FBKINGDOM's citizen as a commonner.
             </p>
@@ -126,7 +124,8 @@
     </section>
 
     <!-- Section 4 -->
-    <section class="mb-16 grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
+    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
+    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="h-80 overflow-hidden rounded-lg order-2 md:order-1 hidden md:block">
             <img 
                 src="{yukkuri_image}"
@@ -137,8 +136,11 @@
         <div class="space-y-4 md:order-2">
             <h2 class="text-3xl">Fubuzilla</h2>
             <p>
-                Fubuzilla <strong>(フブラ/Fubura) </strong> is a kaiju variation of Fubuki, which can shoot beams from its mouth. 
-                It first appeared in a <a href="https://www.youtube.com/watch?v=ljZwKRVrMps"><strong> Holo no Graffiti</strong></a> episode. 
+                Fubuzilla <strong>(フブラ/Fubura) </strong> is a kaiju variation of Fubuki, 
+                which can shoot beams from its mouth. 
+                It first appeared in a <a href="https://www.youtube.com/watch?v=ljZwKRVrMps">
+                    <strong> Holo no Graffiti</strong>
+                </a> episode. 
                 The name is a fairly obvious combination of "Fubuki" and "Godzilla."
                 <br><br>
                 Fubuzilla is also part of FBKINGDOM's citizen as a commonner.
@@ -154,13 +156,17 @@
     </section>
 
     <!-- Section 5 -->
-    <section class="mb-16 grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
+    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
+    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="space-y-4">
             <h2 class="text-3xl">Kurokami Fubuki</h2>
             <p>
                 Kurokami Fubuki <strong>(黒上フブキ) </strong> is a roommate of Shirakami Fubuki. 
-                She contrasts with Shirakami in many ways, such as having a dark color palette, a lower voice, and a more aggressive personality.
-                She tends to think of the viewers as servants instead of friends, though it doesn't appear to trouble anybody. 
+                She contrasts with Shirakami in many ways, 
+                such as having a dark color palette, a lower voice, 
+                and a more aggressive personality.
+                She tends to think of the viewers as servants instead of friends, 
+                though it doesn't appear to trouble anybody. 
                 <br><br>
                 Her birthday is on September 6, being the day before her "debut" on September 7.
                 A lot of people enjoy her appearances due to their uncommon nature, among other things.
@@ -178,7 +184,8 @@
     </section>
 
     <!-- Section 6 -->
-    <section class="mb-16 grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
+    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
+    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="h-80 overflow-hidden rounded-lg order-2 md:order-1 hidden md:block">
             <img 
                 src="{burinyan_image}"
@@ -209,7 +216,8 @@
     </section>
 
     <!-- Section 7 -->
-    <section class="mb-16 grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
+    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
+    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="space-y-4">
             <h2 class="text-3xl">Naila</h2>
             <p>
@@ -232,7 +240,8 @@
     </section>
 
     <!-- Section 8 -->
-    <section class="mb-16 grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
+    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
+    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="h-80 overflow-hidden rounded-lg order-2 md:order-1 hidden md:block">
             <img 
                 src="{washigayurusou_image}"

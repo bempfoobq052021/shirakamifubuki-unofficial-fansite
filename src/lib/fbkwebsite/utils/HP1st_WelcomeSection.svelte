@@ -6,7 +6,7 @@
     import bg_hero_mp4 from "$lib/fbkwebsite/videos/bg-hero.mp4";
 </script>
 
-<div id="letter_topside" class="bg-fbksite-lightosmanthus z-10 h-[99vh] w-[99vw]">
+<div id="letter_topside" class="bg-fbksite-offwhite z-10 h-[99vh] w-[99vw]">
     <div class="font-serif z-15">
         <div class="absolute size-full p-[37px] z-10 bg-fbksite-lightosmanthus">
                 <video class="absolute w-[calc(98vw-50px)] h-[calc(98vh-50px)] object-cover 
@@ -35,12 +35,17 @@
     </div>
 </div>
 
-<div id="letter_inside" class="relative bg-white z-10 md:h-[99vh] w-[99vw]">
+<span class="absolute w-[99vw] h-[20px] z-15 bg-gradient-to-b 
+from-fbksite-offwhite via-white to-fbksite-offwhite">
+    
+</span>
+
+<div id="letter_inside" class="relative bg-white z-10 h-[99vh] w-[99vw]">
     <div class="text-fbksite-darkgreyblue flex absolute 
     right-[50px] top-[50px] m-3">
-        <div class="relative h-[120px] stamp-border-image">
-            <p class="z-10 text-[10px] text-center md:mr-auto">ONE CORN</p>
-            <img alt="post stamp" class="mt-[25px] stamp-image w-[60px]" 
+        <div class="relative h-[70px] stamp-border-image">
+            <p class="z-10 text-[0.5rem] text-center md:mr-auto">ONE CORN</p>
+            <img alt="post stamp" class="mt-[5px] stamp-image w-[35px]" 
             src={cornimage} />
         </div>
     </div>
@@ -50,26 +55,22 @@
         <img alt="Village Sucorns" class="relative md:max-h-[200px] max-h-[100px] 
         left-[20px] m-10 md:m-px" src={vlg_skb_02} />
     </div>
-    <section class="p-[37px] size-full bg-fbksite-lightosmanthus font-serif p-5">
-        <div class="relative text-fbksite-darkgreyblue top-[30%] md:top-[10%]">
+    <section class="p-[37px] size-full bg-fbksite-offwhite font-serif p-5">
+        <div class="relative text-fbksite-darkgreyblue top-[20%] md:top-[10%]">
             <p class="xl:text-[7rem] md:text-[2.5rem] text-[2rem] xl:ml-20 ml-5 
             lavishly-yours-regular tracking-normal">
                 Dear Friends around the globe,
             </p>
         </div>
         <div class="letter-content relative text-fbksite-darkgreyblue 
-        top-[40%] md:top-[30%] max-w-[50%]">
-            <p class="text-[1rem] leading-[3rem] md:text-[1.5rem] xl:ml-20 
+        top-[30%] md:top-[15%] max-w-[50%]">
+            <p class="text-[1rem] leading-[1.2rem] md:leading-[3rem] md:text-[1.5rem] xl:ml-20 
             ml-5 indie-flower-regular">
-                I'm writing this from a desk, in a face, in a city of beautiful gardens. 
-                The sun is shining brightly and I'm enjoying a simple afternoon tea. 
-                Our travel, blessed with enjoyment and turmoil alike,
-                led us into this amazing place. The king, Shirakami Fubuki, 
-                is a kind soul to travellers like us - and the food here
-                is great! Hope one day you can join us here!
+                This website is a fan-made letter, for Shirakami Fubuki. 
+                With the aim of archiving our adventures in and with Fubukingdom.
+                The king, Shirakami Fubuki, is a kind soul to travellers like us
+                - and the jokes here are great! I hope one day you can join us!
             </p>
-        </div>
-        <div class="letter_content_bg">
         </div>
     </section>
 </div>

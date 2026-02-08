@@ -1,7 +1,6 @@
 <script lang="ts">
     import type { PageProps } from './$types.js';
     import HP1st_WelcomeSection from '$lib/fbkwebsite/utils/HP1st_WelcomeSection.svelte'
-    import HP2ndLetter from '$lib/fbkwebsite/utils/HP2nd_Letter.svelte';
     import TranslatedDisplay from '$lib/fbkwebsite/utils/TranslatedDisplay.svelte';
     import HP4th_KingsTimes from '$lib/fbkwebsite/utils/HP4th_KingsTimes.svelte';
     import HP3rdActivities from '$lib/fbkwebsite/utils/HP3rd_Activities.svelte';

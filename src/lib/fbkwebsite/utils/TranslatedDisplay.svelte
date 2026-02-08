@@ -2,7 +2,7 @@
     import {base} from '$app/paths';
 </script>
  
-<div class="bg-white p-10 border-1">
+<div class="bg-fbksite-offwhite p-10 border-1">
     <div class="w-full text-fbksite-darkblue">
         <p class="text-[2rem] md:text-[4rem] text-center fbkingdom-novel-translation font-weight-400">“FBKINGDOM STORY” Translation - EP1</p>
         <br/>
@@ -16,9 +16,11 @@
         “…I want to meet her…”  <br />
         A soft voice rose up from within and surprised me. I want to meet her.  <br /> 
         Hearing those words the librarian quickly snapped her fingers.  <br />
-        “You are a lucky one. That is because the Halloween party is about to begin. Surely you shall meet the king herself as well.” <br /> 
+        “You are a lucky one. That is because the Halloween party is about to begin. 
+        Surely you shall meet the king herself as well.” <br /> 
         “Really?!”  <br />
-        Despite getting excited, what is a Halloween party? Seeing my confused expression, the librarian chuckled.<br /><br />
+        Despite getting excited, what is a Halloween party? Seeing my confused expression, 
+        the librarian chuckled.<br /><br />
 
         “A Halloween party, you see, is when a festival is held for the underworld’s queen pact.“  <br />
         “Underworld… wait, you mean the realm of the dead!?”  <br />

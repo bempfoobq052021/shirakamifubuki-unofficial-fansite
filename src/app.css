@@ -784,3 +784,38 @@ a :hover{
   width: 100%;
   background-image: url("lib/fbkwebsite/assets/bg_dotted_line_trnsp.svg");
 } 
+
+.poststamp {
+  position: relative;
+  left: 20px;
+  margin: 10px;
+}
+
+.sidebar-custom {
+  height: 100vh;
+  border: 5px white;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sidebar-custom > div{
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidebar-custom a{
+  background-color: transparent;
+  font-size: max(36px, 3vh);
+}
+
+@media (orientation: portrait) and (width >= 48rem){
+  
+  .poststamp {
+    height: clamp(100px, 5%, 200px);
+    max-width: 100px;
+    margin: 1px;
+  }
+
+}

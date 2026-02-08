@@ -1,6 +1,5 @@
 <script lang="ts">
     import haku_sukonbu_01 from "$lib/fbkwebsite/assets/haku_sukonbu_01.png";
-    import haku_sukonbu_cut_01_01 from "$lib/fbkwebsite/assets/haku_sukonbu_cut_01_01.png";
     import nyc_01 from "$lib/fbkwebsite/assets/nyc_01.jpg";
     import haku_sukonbu_cut_01_02 from "$lib/fbkwebsite/assets/haku_sukonbu_cut_01_02.png";
     import { onMount } from 'svelte';
@@ -10,41 +9,35 @@
     })
 </script>
 
-<div class="bg-white p-10 ">
-    <div class="relative w-[100vh-10rem] lg:h-[90vh] top-88px object-contain border-1">
-        <div class="relative m-10 object-center flex items-center">
-            <h1 class="lg:text-[9rem] text-[3rem]">ACTIVITIES</h1>
+<div class="bg-fbksite-offwhite p-10 border-1">
+    <div class="relative w-[100vh-10rem] lg:h-[90vh] object-contain">
+        <div class="relative md:p-10 object-center flex items-center">
+            <h1 class="lg:text-[10vh] text-[5vh] text-center">ACTIVITIES</h1>
         </div>
-        <div class="grid lg:grid-cols-12 grid-row-4 lg:h-[60vh]
-        lg:pl-[8vw] pl-[4vw] pr-[4vw] ">
-            <a href="/explore" class="border-2 items-center content-center stamp-border-image justify-center
-            lg:col-start-1 lg:col-end-3 left-[10vw]">
+        <div class="grid lg:grid-cols-3 grid-row-4 lg:h-[60vh]
+        pl-[4vw] lg:pl-[8vw] pr-[4vw]">
+            <a href="/explore" class="border-2 items-center content-center 
+            stamp-border-image justify-center bg-contain
+            left-[10vw]">
                 <img alt="Exploration" src={haku_sukonbu_01} />
                 <p class="font-[2rem] text-black text-center">
-                    Exploring The Kingdom
+                    Explore and Meet The Friends!
                 </p>
             </a>
-            <div class="border-2 content-center stamp-border-image justify-center
-            lg:col-start-4 lg:col-end-6">
-                <img alt="Exploration" src={haku_sukonbu_cut_01_01} />
-                <p class="font-[2rem] text-black text-center">
-                    Meeting New Friends
-                </p>
-            </div>
-            <div class="border-2 content-center stamp-border-image justify-center
-            lg:col-start-7 lg:col-end-9">
+            <a href="/projects" class="border-2 content-center 
+            stamp-border-image justify-center">
                 <img alt="Exploration" src={nyc_01} />
                 <p class="font-[2rem] text-black text-center">
-                    Festivals and Projects
+                    FBKINGDOM Festivals and Projects Gallery
                 </p>
-            </div>
-            <div class="border-2 content-center stamp-border-image justify-center
-            lg:col-start-10 lg:col-end-12">
+            </a>
+            <a href="/translations" class="border-2 content-center 
+            stamp-border-image justify-center">
                 <img alt="Exploration" src={haku_sukonbu_cut_01_02} />
                 <p class="font-[2rem] text-black text-center">
                     Translations and Writings
                 </p>
-            </div>
+            </a>
         </div>
     </div>
 </div>
