@@ -26,7 +26,20 @@
         </header>
     </div>
     
-    <h1 class="width-full text-center text-[10vh] text-fbksite-darkgreyblue"> Characters </h1>
+    <h1 class="w-full text-center text-[10vh] text-fbksite-darkgreyblue"> Characters </h1>
+    
+    <p class="w-full pr-[10vw] pl-[10vw] indent-5 text-fbksite-darkgreyblue">
+        Some Sucorns also went beyond just watching and supported their idol 
+        in various of ways.
+        One of the most prominent are art projects, usually reserved for birthday and
+        debut anniversaries (we shorten them to just anniversaries). 
+        This project, while rare, provides us a with a way to convey 
+        our appreciation of her talent and celebrating
+        the community we're in! This list is not extensive and does not 
+        cover the myriads of ways the Japanese community supported 
+        Shirakami Fubuki and our participation in those project, 
+        mainly because we haven't contacted the organizers (there's quite a bit).
+    </p>
 
     <!-- Content Sections -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -34,59 +47,185 @@
     <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
     grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="space-y-4">
-            <h2 class="text-3xl">Chaos Choir</h2>
+            <h2 class="text-3xl">Advertising 2025 : NYCornQuest</h2>
             <div class="col-md-8 ml-auto mr-auto">
                 <p class="indent-2">
-                    In the footsteps of our favorite artist, there's always 
-                    an interest in singing and other musical arts in our group.
-                    That interest culminated in The Chaos Choir, a virtual choir
-                    involving members of our discord group. 
-                </p>
-                <p class="indent-2">
-                    
+                Main website:
+                <a href="https://fubuki.one/">https://fubuki.one/</a>
+                <br>
+                This is our biggest project to date, involving international cooperation
+                and planning. The team behind this is mostly from our fandom but 
+                we receive help from other fandom and project managers in the planning
+                and executive commitee. The project is completed and is 
+                up on the TSX screen in Times Square for a day at October 1st, 2025! 
+                <br>
+                <br>
                 </p>
             </div>
         </div>
-        <div class="h-80 overflow-hidden rounded-lg">
-            <img
-                src="{sukonbu_image}"
-                alt="Modern workspace"
-                class="w-full h-full object-contain"
-            />
+        <div class="rounded-lg">
+            <p>
+            Linked below is the livestream of the TSX board:<br>
+            NYCornQuest - Times Square テイクオーバー/HIJACK!!! 🦊🌽  The Livestream
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/tWgswmLN5bo?si=nTxs3MGJwYls1F85" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+            <br>
+            Our NYCornQuest Project's starting mark:
+            <br>
+            白上フブキ誕生日計画 / Shirakami Fubuki Birthday Project - #NYCornQuest
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/xMKinPQgOcA" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+            <br>
+            Fubuki Birthday 2025 - Times Square テイクオーバー/HIJACK!!! 🦊🌽#NYCornQuest
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/F_rZnYHw_bI" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+            
+            </p>
         </div>
     </section>
 
     <!-- Section 2 -->
     <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
     grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
-        <div class="h-80 overflow-hidden hidden rounded-lg order-2 md:order-1 hidden md:block">
-            <img 
-                src="{oruyanke_image}"
-                alt="3rd"
-                class="w-full h-full object-contain"
-            />
+        <div class="hidden rounded-lg order-2 md:order-1 md:block">
+            Celebration Present for Fubuki Reaching 1 Million Subscribers
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/PsVeJCgVdWo" 
+                title="Celebration Present for Fubuki Reaching 1 Million Subscribers" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+                <br>
+                Fubuki 4th Anniversary Celebration - Fubuki's World Tour
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/kWWUkzjV6cQ" 
+                title="Fubuki 4th Anniversary Celebration - Fubuki's World Tour" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+                <br>
+                Fubuki 2 Million Subscribers Celebration - Two Million Friends!
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/B5L0HWNvhJE" 
+                title="Fubuki 2 Million Subscribers Celebration - Two Million Friends!" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+                <br>
+                Fubuki Shirakami Birthday 2024 - Celebrating 
+                Cute Fox's Birthday with Birthday Greeting Cards!
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/20PaJwCcgOU" 
+                title="Fubuki Shirakami Birthday 2024 - Celebrating 
+                Cute Fox's Birthday with Birthday Greeting Cards!" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+                <br>
         </div>
         <div class="space-y-4 order-1 md:order-2">
-            <h2 class="text-3xl">Oruyanke</h2>
+            <h2 class="text-3xl">Community Celebrations</h2>
             <p>
-                Oruyanke <strong>(おるやんけ) </strong>are bamboo shoots with Fubuki's tail and ears.
-                The name very roughly means, "They're there!" in Kansai dialect, 
-                referring to how bamboo grows in many places and conditions.
-                <br><br>
-                The mascot originated sometime during or before September 2018, 
-                making it one of, if not the oldest mascots Fubuki has.
-                Oruyanke also made an appearance in Azur Lane, 
-                being a part of Fubuki's character in it.
-                <br><br>
-                Oruyanke is part of FBKINGDOM's citizen.
+                Our community is very important to us, and over the years 
+                we make videos to thank Fubuki for reaching out and 
+                building our community. The few videos we made are thanks to 
+                our editors whom over the years have been very kind to us!
+                If you have an idea and want to lead a project, 
+                join and go talk to the sucorns. We maybe able to help 
+                or point you to another server who can help.
             </p>
         </div>
-        <div class="h-80 overflow-hidden rounded-lg block order-1 md:order-2 md:hidden">
-            <img
-                src="{oruyanke_image}"
-                alt="Modern workspace"
-                class="w-full h-full object-contain"
-            />
+        <div class="rounded-lg block order-1 md:order-2 md:hidden">
+            Celebration Present for Fubuki Reaching 1 Million Subscribers
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/PsVeJCgVdWo" 
+                title="Celebration Present for Fubuki Reaching 1 Million Subscribers" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+                <br>
+                Fubuki 4th Anniversary Celebration - Fubuki's World Tour
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/kWWUkzjV6cQ" 
+                title="Fubuki 4th Anniversary Celebration - Fubuki's World Tour" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+                <br>
+                Fubuki 2 Million Subscribers Celebration - Two Million Friends!
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/B5L0HWNvhJE" 
+                title="Fubuki 2 Million Subscribers Celebration - Two Million Friends!" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+                <br>
+                Fubuki Shirakami Birthday 2024 - Celebrating 
+                Cute Fox's Birthday with Birthday Greeting Cards!
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/20PaJwCcgOU" 
+                title="Fubuki Shirakami Birthday 2024 - Celebrating 
+                Cute Fox's Birthday with Birthday Greeting Cards!" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+                <br>
         </div>
     </section>
 
@@ -94,32 +233,30 @@
     <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
     grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="space-y-4">
-            <h2 class="text-3xl">Miteiru</h2>
+            <h2 class="text-3xl">Chaos Choir</h2>
             <p>
-                Miteiru <strong>(ミテイル) </strong> 
-                is a mascot that was 
-                <a href="https://twitter.com/shirakamifubuki/status/1315217059257622530">
-                    <strong>introduced shortly after her birthday in 2020.</strong>
-                </a> 
-                The mascot fittingly has a tie resembling her third birthday outfit, 
-                and also has a similar tail to Fubuki's.
-                <br><br>
-                The name means "see" or "watch," and it is said to be able to stretch and grow in various ways. 
-                Alongside that, it is very soft, sticks to the ceiling, and doesn't blink. 
-                It has also been revealed that the miteiru is edible and apparently, 
-                <a href="https://www.youtube.com/watch?v=H-RN8x-NFhg&amp;t=7292s">
-                    <strong>delicious.</strong>
-                </a>
-                <br><br>
-                Smaller Miteiru is also part of FBKINGDOM's citizen as a commonner.
+                Chaos Choir was one of our yearly project, 
+                and it was last celebrated two years ago.
+                It's a virtual choir project where we usually sing 
+                Fubuki's original song. We choose the most viable song to sing
+                and cook them over the course of 2-3 months.
+                Our resident audio mixer and editor have since moved on, 
+                so this project is effectively inactive for the forseeable future.
             </p>
         </div>
-        <div class="h-80 overflow-hidden rounded-lg">
-            <img 
-                src="{miteiru_image}"
-                alt="something"
-                class="w-full h-full object-contain"
-            />
+        <div class="overflow-hidden rounded-lg">
+            KonKon Beats (Cover) by Chaos Choir for Fubuki's 5th anniversary!
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/LbmLE0X4fyM" 
+                title="KonKon Beats (Cover) by Chaos Choir for 
+                Fubuki's 5th anniversary!" 
+                frameborder="0" 
+                allow=" 
+                    clipboard-write; 
+                    encrypted-media;  
+                    picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
         </div>
     </section>
 
@@ -134,16 +271,15 @@
             />
         </div>
         <div class="space-y-4 md:order-2">
-            <h2 class="text-3xl">Fubuzilla</h2>
+            <h2 class="text-3xl">Translations and Learning Japanese</h2>
             <p>
-                Fubuzilla <strong>(フブラ/Fubura) </strong> is a kaiju variation of Fubuki, 
-                which can shoot beams from its mouth. 
-                It first appeared in a <a href="https://www.youtube.com/watch?v=ljZwKRVrMps">
-                    <strong> Holo no Graffiti</strong>
-                </a> episode. 
-                The name is a fairly obvious combination of "Fubuki" and "Godzilla."
-                <br><br>
-                Fubuzilla is also part of FBKINGDOM's citizen as a commonner.
+                Japanese remains the main language to communicate with our favorite, 
+                hence we have a small but active language learner. 
+                It's mostly an exchange, not a formal education nor 
+                an established course. We focus on learning Japanese to understand 
+                Fubuki's conversation and to participate in her chat. 
+                We also have a small translation team for 
+                <a href="/translations">Fubuki's latest novel.</a>
             </p>
         </div>
         <div class="h-80 overflow-hidden rounded-lg order-1 md:order-2 block md:hidden">
@@ -159,111 +295,21 @@
     <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
     grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
         <div class="space-y-4">
-            <h2 class="text-3xl">Kurokami Fubuki</h2>
+            <h2 class="text-3xl">Others</h2>
             <p>
-                Kurokami Fubuki <strong>(黒上フブキ) </strong> is a roommate of Shirakami Fubuki. 
-                She contrasts with Shirakami in many ways, 
-                such as having a dark color palette, a lower voice, 
-                and a more aggressive personality.
-                She tends to think of the viewers as servants instead of friends, 
-                though it doesn't appear to trouble anybody. 
-                <br><br>
-                Her birthday is on September 6, being the day before her "debut" on September 7.
-                A lot of people enjoy her appearances due to their uncommon nature, among other things.
-                <br><br>
-                Her role in FBKINGDOM is the Captain of The Guard.
+                Others
+                <br>
+                Sucorns Congratulatory Card Vending Machine
+                https://konkoncards.fubuki.moe/
+                <br>
+                Note that all of these projects are fanmade and are not affiliated with Cover corp,
+                though we meticulously follow Cover's guideline for derivative works.
             </p>
         </div>
         <div class="h-80 overflow-hidden rounded-lg">
             <img 
                 src="{kurokami_image}"
                 alt="something"
-                class="w-full h-full object-contain"
-            />
-        </div>
-    </section>
-
-    <!-- Section 6 -->
-    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
-    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
-        <div class="h-80 overflow-hidden rounded-lg order-2 md:order-1 hidden md:block">
-            <img 
-                src="{burinyan_image}"
-                alt="3rd"
-                class="w-full h-full object-contain"
-            />
-        </div>
-        <div class="space-y-4 md:order-2">
-            <h2 class="text-3xl">White Prinyan</h2>
-            <p>
-                White Prinyan <strong>(ホワイトブリニャン / Howaito Burinyan ) </strong> is a catty friend of Fubuki. 
-                She used to go around visiting other hololive members when they're doing faux host club streams, 
-                but has since been jailed for public nuisance and bringing chaos to others streams. Apparently she's 
-                pretty smart and powerful despite her silly look, and have escaped her jail numerous time.
-                <br> <br>
-                She can be found visiting other hololive members in special moments, like Valentine's day and White Day.
-                She first appeared in a <a href="https://www.youtube.com/watch?v=JG48VfeF5tQ"><strong>Okayu's Faux Host Bar</strong></a>. 
-                The name is a portmanteau of "White Princess" and "Nyan".
-            </p>
-        </div>
-        <div class="h-80 overflow-hidden rounded-lg order-1 md:order-2 block md:hidden">
-            <img 
-                src="{burinyan_image}"
-                alt="3rd"
-                class="w-full h-full object-contain"
-            />
-        </div>
-    </section>
-
-    <!-- Section 7 -->
-    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
-    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
-        <div class="space-y-4">
-            <h2 class="text-3xl">Naila</h2>
-            <p>
-                Naila is the Queen of the Underworld of FBKGINDOM. She's a very powerful monarch who made the Underworld 
-                into a place for containing and healing the souls of the dead before they can reincarnate back into the world.
-                She's also the host and the coordinator for FBKINGDOM Halloween Night event, where the dead briefly reunite with the living.
-                <br> <br>
-                She is strict and would not hesitate to use physical force to discipline her unruly subjects. 
-                Hinted in the story is her powerful magical ability as she was the first to hold back the soul-crushing force of the 
-                torrent of the Underworld and creating a city where the torrent was. She's usually pretty busy but bored.
-            </p>
-        </div>
-        <div class="h-80 overflow-hidden rounded-lg">
-            <img 
-                src="{naila_image}"
-                alt="something"
-                class="w-full h-full object-contain"
-            />
-        </div>
-    </section>
-
-    <!-- Section 8 -->
-    <section class="p-2 m-1 md:mb-16 border-[3px] border-solid border-fbksite-osmanthus 
-    grid md:grid-cols-2 gap-8 items-center text-fbksite-darkgreyblue">
-        <div class="h-80 overflow-hidden rounded-lg order-2 md:order-1 hidden md:block">
-            <img 
-                src="{washigayurusou_image}"
-                alt="3rd"
-                class="w-full h-full object-contain"
-            />
-        </div>
-        <div class="space-y-4 md:order-2">
-            <h2 class="text-3xl">Forgiving Dude</h2>
-            <p>
-                Forgiving Dude<strong>(わしがゆるそう/Washigayurusou) </strong> that started out as a voice in Fubuki's head.
-                Recently <a href="https://www.youtube.com/watch?v=2DLVTOxyr_M">it manifested</a> as an standalone entity in FBKINGDOM, 
-                portrayed as a physically powerful entity with a musical sensibility.
-                <br><br>
-                It first appeared in a <a href="https://www.youtube.com/watch?v=lgPBZsWN9Bw"><strong> Holo no Graffiti</strong></a> episode. 
-                Other names include "KING", "That weird thing".
-            </p>
-        </div>
-        <div class="h-80 overflow-hidden rounded-lg order-1 md:order-2 block md:hidden">
-            <img 
-                src="{washigayurusou_image}"
-                alt="3rd"
                 class="w-full h-full object-contain"
             />
         </div>

@@ -522,7 +522,7 @@ html {
   background-color: var(--color-fbkingdom-border);
 }
 #frames .inner-borders span {
-  background-color: var(--color-fbkingdom-inner-border);
+  background-color: var(--color-fbkingdom-border);
 }
 
 .position-control-top {

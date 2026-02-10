@@ -8,7 +8,7 @@
 
 <div id="letter_topside" class="bg-fbksite-offwhite z-10 h-[99vh] w-[99vw]">
     <div class="font-serif z-15">
-        <div class="absolute size-full p-[37px] z-10 bg-fbksite-lightosmanthus">
+        <div class="absolute size-full p-[37px] z-10 bg-fbksite-offwhite ">
                 <video class="absolute w-[calc(98vw-50px)] h-[calc(98vh-50px)] object-cover 
                 z-5 object-[70%_0%] md:object-center" 
                 playsinline loop muted autoplay id="bgvid">
@@ -16,13 +16,13 @@
                     <source src={bg_hero_mp4} type="video/mp4">
                 </video>
             <span class="absolute top-0 left-0 h-[50px] w-full 
-            bg-fbksite-lightosmanthus z-15"></span>
+            bg-fbksite-offwhite z-15"></span>
             <span class="absolute top-0 right-0 h-full w-[50px] 
-            bg-fbksite-lightosmanthus z-15"></span>
+            bg-fbksite-offwhite z-15"></span>
             <span class="absolute bottom-0 left-0 h-[50px] w-full 
-            bg-fbksite-lightosmanthus z-15"></span>
+            bg-fbksite-offwhite z-15"></span>
             <span class="absolute top-0 left-0 h-full w-[50px] 
-            bg-fbksite-lightosmanthus z-15"></span>
+            bg-fbksite-offwhite z-15"></span>
         </div>
         <div class="absolute text-title left-[10vw] top-[5vh] z-15">
             <p class="montez-regular md:text-[10vh] text-[5vh]">
