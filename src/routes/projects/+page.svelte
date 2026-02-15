@@ -1,14 +1,8 @@
 <script lang="ts">
     import type { PageProps } from './$types.js';
     import kurokami_image from "$lib/fbkwebsite/assets/kurokami natsuiromatsuri 1202227787341299712.png";
-    import burinyan_image from "$lib/fbkwebsite/assets/parufeito_burinyan_114553968_p0_web_edit_trsp.webp";
-    import naila_image from "$lib/fbkwebsite/assets/INUTOBI21 1976254734580482524.webp";
-    import washigayurusou_image from "$lib/fbkwebsite/assets/washigayurusou lgPBZsWN9Bw.webp";
-    import oruyanke_image from "$lib/fbkwebsite/assets/oruyanke.png";
-    import miteiru_image from "$lib/fbkwebsite/assets/miteiru.png";
-    import sukonbu_image from "$lib/fbkwebsite/assets/sukon.png";
     import yukkuri_image from "$lib/fbkwebsite/assets/yukkuri.png";
-    import header_image from "$lib/fbkwebsite/assets/syeimu fbkingdom explore 1857357636351778831.jpg";
+    import header_image from "$lib/fbkwebsite/assets/project hakuoromite 1973343892587335896.jpg";
 
     let { data }: PageProps = $props();
 </script>
@@ -21,7 +15,7 @@
         <img 
             src="{header_image}"
             alt="Header landscape"
-            class="w-full h-full object-cover object-[0% 20%]"
+            class="w-full h-full object-cover object-[0%_60%] bottom-[50px]"
         />
         </header>
     </div>

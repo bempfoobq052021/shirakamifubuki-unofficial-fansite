@@ -8,18 +8,18 @@
     import miteiru_image from "$lib/fbkwebsite/assets/miteiru.png";
     import sukonbu_image from "$lib/fbkwebsite/assets/sukon.png";
     import yukkuri_image from "$lib/fbkwebsite/assets/yukkuri.png";
-    import header_image from "$lib/fbkwebsite/assets/syeimu fbkingdom explore 1857357636351778831.jpg";
+    import header_image from "$lib/fbkwebsite/assets/character banner hakuoromite 1974500704183062685.jpg";
 
     let { data }: PageProps = $props();
 </script>
 
-<div class="min-h-screen bg-fbksite-lightosmanthus">
+<div class="min-h-screen bg-fbksite-offwhite">
     <!-- Header Image - 30% viewport height -->
     <header class="h-[39vh] relative overflow-hidden">
     <img 
         src="{header_image}"
         alt="Header landscape"
-        class="w-full h-full object-cover object-[0% 20%]"
+        class="w-full h-full object-cover object-[0%_60%] bottom-[50px]"
     />
     </header>
     
