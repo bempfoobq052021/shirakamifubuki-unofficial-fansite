@@ -7,7 +7,7 @@ on:
     branches: 'main'
 
 env:
-  BASE_PATH: '/${{ github.event.repository.name }}'
+  BASE_PATH: '/${{ github.event.repo.name }}'
 
 # Allow this job to clone the repo and create a page deployment
 permissions:
