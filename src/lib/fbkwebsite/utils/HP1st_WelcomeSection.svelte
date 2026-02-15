@@ -4,6 +4,7 @@
     import vlg_skb_02 from "$lib/fbkwebsite/assets/haku_sukonbu_cut_01_02.png";
     import bg_hero_webm from "$lib/fbkwebsite/videos/bg-hero.webm";
     import bg_hero_mp4 from "$lib/fbkwebsite/videos/bg-hero.mp4";
+
 </script>
 
 <div id="letter_topside" class="bg-fbksite-offwhite z-10 h-[120vh] w-[99vw]">
